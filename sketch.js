@@ -85,7 +85,7 @@ function draw() {
     
     ground.velocityX = -(6 + 3* score/10);
     
-  if (keyWentDown("space") && monkey.y >= 313.1){
+  if (keyWentDown("space") && monkey.y >= 314){
   monkey.velocityY = -18;
     jumpSound.play();
   }
